@@ -1,0 +1,94 @@
+{
+    "name": "Mission Generator",
+    "resultPattern": "Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks}  - Submission: {split} ",
+    "tables": [
+        {
+            "name": "Mission type",
+            "entries": [
+"Find & Retrieve ",
+"Locate ",
+"Destroy/Kill ",
+"Protect ",
+"Smuggle ",
+"Intimidate "
+                           ]},
+                         
+        {
+            "name": "X",
+            "entries": [
+                "Rumoured Ancient device",
+"Opposing Faction Agent",
+"Witness to a crime",
+"Person who is accusing", 
+"Experimental Weapon",
+"Ancient Relic",
+"Merchant ",
+"Spy",
+"Assassin",
+"Ships Captain",
+"Military Officer",
+"Innocent person",
+"Region Map",
+"Local area map",
+"Treassure map",
+"A box of secrets",
+"Evidence"            ]
+        },
+        {
+            "name": "location",
+            "entries": [
+                "Ruins",
+"Old fortress",
+"warehouse",
+"pleasure house",
+"frontier wilderness",
+"remote research base",
+"secret base of operations",
+"monsters lair",
+"Dungeon",
+"Prison",
+"den of thieves",
+"Merchants guild"            ]
+        },
+        {
+            "name": "opposition",
+            "entries": [
+                "Local humanoids",
+"opposing faction",
+"Local animals",
+"Local Monsters",
+"Local fauna",
+"demons",
+"animated entities",
+"mythical monster"
+            ]
+        },
+        {
+            "name": "tricks",
+            "entries": [
+                "traps",
+"illusions",
+"superior weapons",
+"unnatural endurance",
+"bezerk",
+"hiding",
+"unnatural speed",
+"unnatural strength",
+"strength in numbers",
+"hit & run",
+"strong diplomatic allies",
+"special weapons"            ]
+        },
+        {
+            "name": "split",
+            "entries": [
+               "0",
+"2nd Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks}
+",
+"2nd Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks} - 3rd Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks}
+",
+"2nd Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks} - 3rd Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks} - 4th Mission:{Mission type} -  Item/person:{X}  - Location:{location}  - Opposition:{opposition}  - Opposition Tricks:{tricks}
+"            ]
+        },
+          ]
+}
